@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'lato';
+    src: url(./font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(./font/Mulish-Regular.ttf);
+}
+
+
+* {
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish';
+}
+
+
+/* NAV BAR SECTION ST */
+.navbar {
+    margin: 10px 0px;
+}
+
+.navbar button {
+    background: #00464E;
+    color: #fff;
+    border-radius: 5px !important;
+}
+
+.navbar button:hover {
+    background: #015b65;
+}
+
+.navbar ul li a {
+    border: 1px solid #35353578;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #47667e;
+    font-size: 13px;
+}
+
+.navbar ul li a:hover {
+    border: 1px solid #000 !important;
+    border-radius: 5px !important;
+    color: #555555;
+}
+
+.navbar ul li:nth-child(1) {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.navbar ul li a img {
+    width: 20px;
+    margin-top: -4px;
+}
+
+.fa-cart-arrow-down {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* NAV BAR SECTION END */
+
+
+/* SECOND NAV BAR SECTION ST */
+.second-main ul li a {
+    color: #00464E;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.1s;
+}
+
+.second-main ul li a:hover {
+    border-bottom: 4px solid #00464E;
+    color: #00464E;
+
+}
+
+.second-main ul {
+    margin: -16px 0px;
+}
+
+/* SECOND NAV BAR SECTION END */
+
+/* HERO SECTION ST */
+
+.therd-main span {
+    color: #C7002C;
+    font-size: 12px;
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.therd-main h1 {
+    font-size: 38px;
+    color: #111111;
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.therd-main p {
+    font-size: 18px;
+    line-height: 1.60rem;
+    color: #555555;
+    letter-spacing: 0.5px;
+}
+
+.therd-main p span {
+    color: #008296;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* HERO SECTION END */
+
+
+/* SECOND SECTION ST */
+
+.serch-heding {
+    font-size: 33px;
+    color: #000;
+    font-family: 'lato';
+    letter-spacing: 1px;
+}
+
+/* SECOND SECTION end */
+
+
+/* THERD SECION st*/
+
+.seven-heding h2 {
+    font-size: 33px;
+    font-family: 'lato';
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.sev-book-card .card {
+    flex: 0 0 calc(20% - 10px);
+}
+
+.sev-book-card img {
+    height: 230px;
+    /* same height for all images */
+    width: 100%;
+    object-fit: contain;
+    /* image ka shape disturbe nahi hoga */
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+
+.sev-book-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sev-book-card .card-body p {
+    margin-top: auto;
+    /* price bottom me fix */
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .sev-book-card .card {
+        flex: 0 0 calc(33.33% - 10px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .sev-book-card .card {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+
+/* THERD SECION END */
+
+/* FIVE SECTION ST  */
+
+.five-bg{
+    background: #F5F7F6;
+}
+
+.five-hedig{
+    font-size: 33px;
+    color: #000;
+    font-family: 'lato';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* FIVE SECTION END */
+
+/* FOOTER SECTION ST */
+
+
+.footer-con h4{
+    font-family: 'lato';
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-con ul li {
+    padding-bottom: 10px;
+}
+
+.footer-con ul li a{
+    color: #47667e;
+    padding-bottom: 10px;
+}
+
+.footer-con ul li a:hover,
+.sec-footer-con ul li a:hover,
+.sec-footer-con a:hover{
+    text-decoration: underline !important;
+}
+
+.footer-con ul li a i{
+    font-size: 30px;
+    color: #000;
+}
+
+/* FOOTER SECTION END */
+
+/* SECOND FOOTER SECTION ST */
+
+.sec-footer-con ul li a{
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con a{
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con span {
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con span a{
+    color: #74008c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* SECOND FOOTER SECTION END */

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'lato';
+    src: url(./font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(./font/Mulish-Regular.ttf);
+}
+
+
+* {
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish';
+}
+
+
+.card h4{
+    font-family: 'lato';
+    letter-spacing: 1px;
+}
+
+
+.footer-main ul li a{
+    color: #0066C0;
+    font-size: 11px;
+}
+
+.footer-main ul li a:hover{
+    color: #c45500;
+    text-decoration: underline !important;
+}
+
+.footer-main p{
+    color: #555555;
+    font-size: 11px;
+}
