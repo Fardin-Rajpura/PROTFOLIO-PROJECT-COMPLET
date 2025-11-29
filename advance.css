@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'lato';
+    src: url(./font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(./font/Mulish-Regular.ttf);
+}
+
+
+* {
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish';
+}
+
+
+/* NAV BAR SECTION ST */
+.navbar {
+    margin: 10px 0px;
+}
+
+.navbar button {
+    background: #00464E;
+    color: #fff;
+    border-radius: 5px !important;
+}
+
+.navbar button:hover {
+    background: #015b65;
+}
+
+.navbar ul li a {
+    border: 1px solid #35353578;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #47667e;
+    font-size: 13px;
+}
+
+.navbar ul li a:hover {
+    border: 1px solid #000 !important;
+    border-radius: 5px !important;
+    color: #555555;
+}
+
+.navbar ul li:nth-child(1) {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.navbar ul li a img {
+    width: 20px;
+    margin-top: -4px;
+}
+
+.fa-cart-arrow-down {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* NAV BAR SECTION END */
+
+
+/* SECOND NAV BAR SECTION ST */
+.second-main ul li a {
+    color: #00464E;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.1s;
+}
+
+.second-main ul li a:hover {
+    border-bottom: 4px solid #00464E;
+    color: #00464E;
+
+}
+
+.second-main ul {
+    margin: -16px 0px;
+}
+
+/* SECOND NAV BAR SECTION END */
+
+/* HERO SECTION ST  */
+
+.ad-main h2 {
+    font-size: 25px;
+    font-family: 'lato';
+    letter-spacing: 1px;
+}
+
+.ad-sec-heading p {
+    font-size: 14px;
+    color: #333333;
+}
+
+.ad-sec-heading a {
+    color: #7400AC;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ad-sec-heading a:hover {
+    text-decoration: underline !important;
+}
+
+.ad-sec-heading a i {
+    font-size: 23px;
+    padding-right: 10px;
+    color: #333333;
+}
+
+.ad-sec-heading a i:hover {
+    text-decoration: none !important;
+}
+
+/* HERO SECTION END  */
+
+/* SECOND FORM SECTION ST  */
+
+.form-box {
+    background: #f3f3f3;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.form-tick label{
+    border: 1px solid #3333333c;
+    padding: 5px;
+    
+}
+
+/* SECOND FORM SECTION END */
+
+/* FOOTER SECTION ST */
+
+
+.footer-con h4{
+    font-family: 'lato';
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-con ul li {
+    padding-bottom: 10px;
+}
+
+.footer-con ul li a{
+    color: #47667e;
+    padding-bottom: 10px;
+}
+
+.footer-con ul li a:hover,
+.sec-footer-con ul li a:hover,
+.sec-footer-con a:hover{
+    text-decoration: underline !important;
+}
+
+.footer-con ul li a i{
+    font-size: 30px;
+    color: #000;
+}
+
+/* FOOTER SECTION END */
+
+/* SECOND FOOTER SECTION ST */
+
+.sec-footer-con ul li a{
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con a{
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con span {
+    color: #47667e;
+    font-size: 15px;
+}
+
+.sec-footer-con span a{
+    color: #74008c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* SECOND FOOTER SECTION END */
